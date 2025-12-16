@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: #242424;
+  --color-white: rgba(255, 255, 255, 0.87);
+  --container-width: w-7xl;
+  --text-base-font-family: font-mono;
+  --text-base--line-height: 2.4;
+}
+
+:root {
+  line-height: var(--text-base--line-height);
+  font-family: var(--font-mono), monospace;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+header, footer {
+  @apply container mx-auto px-4 py-4 lg:px-20 lg:py-6 ;
+}
+
+section {
+  @apply container mx-auto px-4 py-10 lg:px-20 lg:py-15;
+}
+
+h3 {
+  @apply text-3xl font-bold my-4
+}
+
+h5 {
+  @apply text-md
+}

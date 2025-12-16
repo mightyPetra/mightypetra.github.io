@@ -1,0 +1,70 @@
+{
+  "basics": {
+    "name": "Anastasia",
+    "surname": "B.",
+    "title": "Software Engineer based in Latvia",
+    "about": [
+      "I began my journey as a developer in 2021 with Java and Spring Boot. Since then my tech stack has expanded to Typescript and React, some Python and even a touch of .NET.",
+      "I love to take on a challenge and I am not shying away from an unknowns. i am a maker at heart so thinking about the best solution for the problem at hand is my main driving force.",
+      "My experience in quality assurance gives me a unique perspective, I strongly believe that quality should be embedded into the code."
+    ]
+  },
+  "contact": {
+    "email": "anastasia.belodumova@gmail.com",
+    "phone": "+371 29908795",
+    "github": "https://github.com/mightyPetra",
+    "linkedin": "https://linkedin.com/in/anastasia-belodumova/"
+  },
+  "experience": [
+    {
+      "company": "Double Helix Technologies",
+      "position": "Software Developer",
+      "startDate": "Jul 2025",
+      "endDate": "Present",
+      "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting",
+      "tech": [
+        "Java",
+        "React"
+      ]
+    },
+    {
+      "company": "Eurofins Genomics IT Solutions",
+      "position": "Software Developer",
+      "startDate": "Jan 2023",
+      "endDate": "Jul 2025",
+      "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
+    },
+    {
+      "company": "28Stone Consulting",
+      "position": "Junior Java Developer",
+      "startDate": "Nov 2021",
+      "endDate": "Jan 2023",
+      "overview": "Worked in a globally distributed team responsible for the several components of the microservice-oriented application. Maintained existing functionality as well as identified and improved outdated or ill-performing code"
+    },
+    {
+      "company": "28Stone Consulting",
+      "position": "QA Automation Engineer",
+      "startDate": "Nov 2018",
+      "endDate": "Nov 2021",
+      "overview": "Worked both in a team and as a single QA Automation Engineer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
+    }
+  ],
+  "skills": {
+    "backend": [
+      "Java",
+      "Spring Boot"
+    ],
+    "frontend": [
+      "React",
+      "Next.js",
+      "TypeScript"
+    ],
+    "other": [
+      "Python",
+      "MongoDB",
+      "Docker",
+      "Git",
+      "Azure"
+    ]
+  }
+}
