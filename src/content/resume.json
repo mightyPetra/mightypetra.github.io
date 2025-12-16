@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Anastasia",
-    "surname": "B.",
     "title": "Software Engineer based in Latvia",
     "about": [
-      "I began my journey as a developer in 2021 with Java and Spring Boot. Since then my tech stack has expanded to Typescript and React, some Python and even a touch of .NET.",
+      "I began my journey as a developer in 2021 with Java and Spring Boot. Since then my tech stack has expanded to Typescript and React, and even some Python.",
       "I love to take on a challenge and I am not shying away from an unknowns. i am a maker at heart so thinking about the best solution for the problem at hand is my main driving force.",
       "My experience in quality assurance gives me a unique perspective, I strongly believe that quality should be embedded into the code."
     ]

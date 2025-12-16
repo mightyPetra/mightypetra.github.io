@@ -1,4 +1,4 @@
-import Working from '../assets/working.svg'
+import Working from '../assets/working.svg';
 
 type Props = {
   data: {
@@ -9,20 +9,20 @@ type Props = {
   }
 }
 
-const Hero = ({data}: Props) => {
+const Hero = ({ data }: Props) => {
   return (
-    <section className={'bg-white text-black flex'}>
-      <div className={'w-full md:w-2/3'}>
+    <section className={'bg-white text-black flex flex-wrap-reverse md:flex-nowrap justify-center'}>
+      <div className={'min-w-2/3 align-middle'}>
         <div className={'mb-6 text-lg'}>
-        <h3>Hello, I'm {data.name} {data.surname}, {data.title}</h3>
+          <h3 className={''}>Hello, I'm {data.name}, {data.title}</h3>
         </div>
         {data.about.map((paragraph) =>
-        <p key={paragraph} className={'text-sm text-left wrap-break-word leading-6 my-4'}>
-          {paragraph}
-        </p>)
+          <p key={paragraph} className={'text-sm text-left wrap-break-word leading-6 my-4'}>
+            {paragraph}
+          </p>)
         }
       </div>
-        <img alt={'avatar'} src={Working} className={'float-right ml-4 mb-4'}/>
+      <img alt={'avatar'} src={Working} className={'w-70 max-w-1/3 float-right mr-4 mb-4 justify-center'}/>
     </section>
   );
 
