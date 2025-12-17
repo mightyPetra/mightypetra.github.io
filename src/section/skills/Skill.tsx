@@ -5,7 +5,7 @@ type Props = {
 const Skill = ({ data }: Props) => {
 
   return (
-    <div className={'p-4 rounded-lg bg-neutral-900 hover:bg-neutral-800 w-fit'}>
+    <div className={'px-4 py-2 rounded-xl bg-neutral-900 hover:bg-neutral-800 w-fit'}>
       <p>{data}</p>
     </div>
   );
